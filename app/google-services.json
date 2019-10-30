@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "39691627500",
+    "firebase_url": "https://mini-f59d6.firebaseio.com",
+    "project_id": "mini-f59d6",
+    "storage_bucket": "mini-f59d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39691627500:android:fa76dd1926d48900",
+        "android_client_info": {
+          "package_name": "com.example.manu.pleasework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39691627500-vv4cmijtora3gsen7uitoq994locgnc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuN8K69R7fUbBJ8vTFsmacL2fcUKoaG7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

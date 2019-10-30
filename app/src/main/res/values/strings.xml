@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Please Work</string>
+    <string name="title_activity_register_student">RegisterStudent</string>
+    <string name="title_activity_login_student">LoginStudent</string>
+</resources>

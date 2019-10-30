@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.manu.pleasework.Register">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameRegister"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentEnd="true"
+        android:hint="name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameRegister"
+        android:layout_below="@+id/nameRegister"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/nameRegister"
+        android:hint="username" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordRegister"
+        android:layout_below="@+id/usernameRegister"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/usernameRegister"
+        android:hint="password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageRegister"
+        android:layout_below="@+id/passwordRegister"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/passwordRegister"
+        android:hint="age" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:id="@+id/registerButtonRegister"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/ageRegister"
+        android:layout_centerHorizontal="true"
+        android:onClick="registration" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Back To Login"
+        android:id="@+id/loginTextRegister"
+        android:layout_marginTop="62dp"
+        android:onClick="loginPage"
+        android:layout_below="@+id/registerButtonRegister"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uniqueIdRegister"
+        android:layout_below="@+id/ageRegister"
+        android:layout_alignParentStart="true"
+        android:hint="id which you give to your students"
+        android:layout_alignEnd="@+id/ageRegister" />
+</RelativeLayout>
